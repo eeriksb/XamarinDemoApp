@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.NavigationPage"
+             Padding="100">
+
+
+  <StackLayout>
+    <Entry Placeholder="Username"></Entry>
+    <Entry Placeholder="Password" IsPassword="true" ></Entry>
+    <Button Clicked="login" Text="Login" ></Button>
+    <Entry Keyboard="Default" />
+  </StackLayout>
+  
+     
+</ContentPage>
+
+ 
